@@ -1,0 +1,270 @@
+    1  echo $SHELL.
+    2  logout
+    3  exit'
+    4  '
+    5  exit
+    6  clear
+    7  ls
+    8  cd
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd 2203128
+   13  ls
+   14  vim
+   15  ls
+   16  dir
+   17  ls
+   18  who
+   19  history
+   20  finger
+   21  $SHELL
+   22  exit
+   23  ls
+   24  ssh-keygen -t RSA
+   25  ls
+   26  ls -al
+   27  cd .ssh
+   28  ls
+   29  cat id_rsa.pub
+   30  cd 
+   31  ls
+   32  git clone git@github.com:utsavshahm/utsavshahm.github.io.git
+   33  ls
+   34  cd utsavshahm.github.io/
+   35  ls
+   36  cat readme.md 
+   37  cd ..
+   38  ls
+   39  cd
+   40  who
+   41  finger
+   42  who
+   43  l
+   44  ls
+   45  cd utsavshahm.github.io/
+   46  ls
+   47  touch test.txt
+   48  git add .
+   49  ls
+   50  git status
+   51  git commit -m "Test commit"
+   52  git push origin main
+   53  git push origin master
+   54  git push origin main
+   55  ls -al
+   56  git status 
+   57  cd ..
+   58  ls
+   59  rm -r utsavshahm.github.io/
+   60  rm -rf utsavshahm.github.io/
+   61  ls
+   62  git clone git@github.com:utsavshahm/utsavshahm.github.io.git
+   63  ls
+   64  cd utsavshahm.github.io/
+   65  ls
+   66  touch test.txt
+   67  git add .
+   68  git commit -m "Test commit"
+   69  git push origin main
+   70  write 2203126
+   71  git pull origin main 
+   72  ls
+   73  cat readme.md 
+   74  clear
+   75  ls
+   76  cd ..
+   77  ls
+   78  exit
+   79  ls
+   80  clear
+   81  ls
+   82  ls -al
+   83  cd utsavshahm.github.io/
+   84  ls
+   85  cd ..
+   86  ls
+   87  rm -rf utsavshahm.github.io/
+   88  ls
+   89  git clone git@github.com:utsavshahm/2203128-lab-exam-.git
+   90  ls
+   91  cd 2203128-lab-exam-/
+   92  ls
+   93  touch README.md
+   94  vim README.md 
+   95  cd ..
+   96  git clone git@github.com:tusharlone/cs102-git-essentials.git
+   97  ls
+   98  cd cs102-git-essentials/
+   99  ls
+  100  mv ca_500.csv 2203128-lab-exam-
+  101  mv us_500.csv 2203128-lab-exam-
+  102  ls
+  103  cd ..
+  104  ls
+  105  rm -rf cs102-git-essentials/
+  106  git clone git@github.com:tusharlone/cs102-git-essentials.git
+  107  ls
+  108  cd cs102-git-essentials/
+  109  ls
+  110  mv ca_500.csv ..
+  111  ls
+  112  mv us_500.csv ..
+  113  cd ..
+  114  ls
+  115  pwd
+  116  mv ca_500.csv /users/ug22/2203128/2203128-lab-exam-/
+  117  mv us_500.csv /users/ug22/2203128/2203128-lab-exam-/
+  118  ls
+  119  cd 2203128-lab-exam-/
+  120  ls
+  121  wc -l ca_500.csv > ca_city_Montreal.csv 
+  122  ls
+  123  cat ca_city_Montreal.csv 
+  124  vim ca_city_Montreal.csv 
+  125  head -1 ca_500.csv 
+  126  head -1 ca_500.csv >> ca_city_Montreal.csv 
+  127  ls
+  128  cat ca_city_Montreal.csv 
+  129  wc -l us_500.csv >> ca_city_Montreal.csv 
+  130  head -1 us_500.csv >> ca_city_Montreal.csv 
+  131  vim ca_city_Montreal.csv 
+  132  grep "Montreal" ca_500.csv > Montreal.txt
+  133  cat Montreal.txt 
+  134  rm Montreal.txt 
+  135  grep "Montreal" ca_500.csv > ca_city_Montreal.csv 
+  136* 
+  137  vim ca_city_Montreal.csv 
+  138  head -1 ca_500.csv >> ca_city_Montreal.csv 
+  139  head -1 us_500.csv >> ca_city_Montreal.csv 
+  140  vim ca_city_Montreal.csv 
+  141  grep "Montreal" ca_500.csv >> ca_city_Montreal.csv 
+  142  vim ca_city_Montreal.csv 
+  143  grep "Montreal" us_500.csv >> ca_city_Montreal.csv 
+  144  vim ca_city_Montreal.csv 
+  145  grep "Montreal" us_500.csv >> ca_city_Montreal.csv 
+  146  vim ca_city_Montreal.csv 
+  147  clear
+  148  ls
+  149  cat ca_city_Montreal.csv 
+  150  history
+  151  clear
+  152  a=hello
+  153  ${a:2}
+  154  echo ${a:2}
+  155  echo ${a:2:2}
+  156  echo ${a::2}
+  157  ls
+  158  vim 2203128_data_filter.sh
+  159  bash 2203128_data_filter.sh 1 2 ca_500.csv 
+  160  vim 2203128_data_filter.sh
+  161  bash 2203128_data_filter.sh 1 2 ca_500.csv 
+  162  vim 2203128_data_filter.sh
+  163  bash 2203128_data_filter.sh 1 2 ca_500.csv \
+  164  bash 2203128_data_filter.sh 1 2 ca_500.csv 
+  165  vim 2203128_data_filter.sh
+  166  bash 2203128_data_filter.sh 1 2 ca_500.csv 
+  167  vim 2203128_data_filter.sh
+  168  bash 2203128_data_filter.sh 1 2 ca_500.csv 
+  169  bash 2203128_data_filter.sh ca_500.csv 1 2
+  170  vim 2203128_data_filter.sh
+  171  bash 2203128_data_filter.sh ca_500.csv 1 2
+  172  vim 2203128_data_filter.sh
+  173  bash 2203128_data_filter.sh ca_500.csv 1 2
+  174  vim 2203128_data_filter.sh
+  175  bash 2203128_data_filter.sh ca_500.csv 1 2
+  176  vim 2203128_data_filter.sh
+  177  bash 2203128_data_filter.sh ca_500.csv 1 2
+  178  vim 2203128_data_filter.sh
+  179  a=hello
+  180  b=city
+  181  c=amd
+  182  echo $(a::2)_$b_$c
+  183  echo ${a::2}_$b_$c
+  184  b
+  185  echo b
+  186  echo $b
+  187  echo ${a::2}_($b)_($c)
+  188  echo ${a::2}_($b)_$c
+  189  echo ${a::2}_$b_$c
+  190  vim 2203128_data_filter.sh
+  191  bash 2203128_data_filter.sh ca_500.csv city Montreal
+  192  vim 2203128_data_filter.sh
+  193  bash 2203128_data_filter.sh ca_500.csv city Montreal
+  194  vim 2203128_data_filter.sh
+  195  a=uts.csv
+  196  b=hello
+  197  c=city
+  198  ${a::2} $b $c
+  199  echo ${a::2} $b $c
+  200  vim 2203128_data_filter.sh
+  201  bash 2203128_data_filter.sh ca_500.csv city Montreal
+  202  vim 2203128_data_filter.sh
+  203  ls
+  204  bash 2203128_data_filter.sh ca_500.csv city amd
+  205  ls
+  206  vim 2203128_data_filter.sh
+  207  bash 2203128_data_filter.sh ca_500.csv city amd
+  208  vim 2203128_data_filter.sh
+  209  bash 2203128_data_filter.sh ca_500.csv city amd
+  210  ls
+  211  vim 2203128_data_filter.sh
+  212  bash 2203128_data_filter.sh ca_500.csv city amd
+  213  ls
+  214  rm amd.csv 
+  215  ls
+  216  vim 2203128_data_filter.sh
+  217  rm cacityamd.csv 
+  218  ls
+  219  bash 2203128_data_filter.sh us_500.csv city Chicago
+  220  ls
+  221  cat uscityChicago.csv 
+  222  rm uscityChicago.csv 
+  223  las
+  224  ls
+  225  cat ca
+  226  rm ca
+  227  ls
+  228  mkdir code
+  229  mkdir data
+  230  vim 2203128_data_filter.sh
+  231  bash 2203128_data_filter.sh us_500.csv city Chicago
+  232  ls
+  233  rm uscityChicago.csv 
+  234  ls
+  235  bash 2203128_data_filter.sh us_500.csv city Chicago
+  236  ls
+  237  cat uscityChicago.csv 
+  238  rm uscityChicago.csv 
+  239  ls
+  240  vim 2203128_data_filter.sh 
+  241  bash 2203128_data_filter.sh us_500.csv city Chicago
+  242  cat uscityChicago.csv 
+  243  bash 2203128_data_filter.sh us_500.csv city Miami
+  244  ld
+  245  ls
+  246  cat uscityMiami.csv 
+  247  bash 2203128_data_filter.sh us_500.csv city Montreal
+  248  cat uscityMontreal.csv 
+  249  vim 2203128_data_filter.sh 
+  250  rm usc*.txt
+  251  rm usc*.csv
+  252  ls
+  253  bash 2203128_data_filter.sh us_500.csv city Miami
+  254  cat uscityMiami.csv 
+  255  mv *.csv /code
+  256  mv *.csv code/
+  257  ls
+  258  ls code
+  259  rm city
+  260  ls
+  261  mv 2203128_data_filter.sh data/
+  262  ls
+  263  git add .
+  264  git status
+  265  git commit -m "Midterm Mancurad Commit"
+  266  git status
+  267  git push origin main
+  268  git push
+  269  ls
+  270  history > 2203128_history.txt
